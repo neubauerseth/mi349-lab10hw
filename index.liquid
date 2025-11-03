@@ -6,12 +6,8 @@ title: Home
 
 <h1>Things I can't live without</h1>
 
-<img alt="item One" src="/images/itemOne.jpeg" width="300" />
-<img alt="item Two" src="/images/itemTwo.jpeg" width="300" />
-<img alt="item Three" src="/images/itemThree.jpeg" width="300" />
-
-<ul>
-    <li>Keys</li>
-    <li>Shoes</li>
-    <li>Headphones</li>
-</ul>
+<div class="homepage-images">
+    {% figure "/images/itemOne.jpeg", "Keys", "Keys for getting around" %}
+    {% figure "/images/itemTwo.jpeg", "Crocs", "Comfortable everyday shoes" %}
+    {% figure "/images/itemThree.jpeg", "Headphones", "Headphones for listening to lectures and music" %}
+</div>

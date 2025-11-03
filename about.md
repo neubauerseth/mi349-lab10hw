@@ -5,8 +5,10 @@ title: about
 
 # Item 1: Keys
 
-<img class="about" alt="Item One" src="/images/itemOne.jpeg" width="300" />
-<img class="about" alt="My Old Keys" src="/images/itemKey.jpg" width="500" />
+<div class="item-images">
+    {% figure "/images/itemOne.jpeg", "Item One", "My everyday keys that I never leave home without" %}
+    {% figure "/images/itemKey.jpg", "My Old Keys", "My backup set of keys for emergencies" %}
+</div>
 
 <p>These are pictures of my keys</p>
 <p>Without my keys im not able to get to class becuase I drive a moped to school which requires a key to start the engine</p>
